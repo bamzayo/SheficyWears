@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Roboto:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
 
 :root {
   --border: 1px solid red;
@@ -129,7 +130,7 @@ header{
   top: 0;
   height: 70px;
   width: 100%;
-  z-index: 10;
+  z-index: 100;
   background: rgb(231, 226, 221);
   display: flex;
   justify-content: center;
@@ -211,7 +212,8 @@ header{
   z-index: 1;
 }
 .div-center{
-  height: calc(90vh - 70px);
+  height: 100%;
+  /* height: calc(100vh - 70px); */
   width: 100%;
   overflow: hidden;
   position: absolute;
@@ -248,7 +250,7 @@ header{
 }
 .content h1{
   font-size: 4.3rem;
-  font-family: cursive;
+  font-family: 'Salsa', cursive;
   /* font-weight: 500; */
   margin-bottom: .8rem;
   color: #fff;
@@ -647,7 +649,7 @@ footer p{
   font-size: 1rem;
   padding: 0;
   margin: 2px 150px;
-  font-family: cursive;
+  font-family: 'Salsa', cursive;
 }
 
 /* WEB RESPONSIVE */
@@ -734,6 +736,9 @@ footer p{
   }
   .section-header{
     font-size: 2rem;
+  }
+  footer p{
+    margin: auto;
   }
 }
 /*END OF WEB RESPONSIVE */
