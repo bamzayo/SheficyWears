@@ -203,7 +203,7 @@ header{
 /* HOME */
 .home-container{
   position: relative;
-  /*height: calc(90vh - 70px);*/
+  height: calc(80vh - 70px);
   height: 500px
   width: 100%;
   display: flex;
@@ -214,7 +214,7 @@ header{
 }
 .div-center{
   height: 100%;
-  /* height: calc(100vh - 70px); */
+/*   height: calc(100vh - 70px); */
   width: 100%;
   overflow: hidden;
   position: absolute;
